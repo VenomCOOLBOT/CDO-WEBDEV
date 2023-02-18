@@ -1,0 +1,173 @@
+
+body {
+  background-color: rgb(0, 11, 71);
+}
+
+#cloud__img{
+  position: absolute;
+  z-index: -1;
+  width: 2100px;
+}
+
+header {
+  background: linear-gradient(to bottom, rgba(224, 255, 255, 0.8), rgba(224, 255, 255, 0.3));
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #008B8B;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: #e5ff00;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  li a:hover {
+    transform: scale(1.2);
+    background-color: #7FFFD4;
+    color: white;
+  }
+  .announcement {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .announcement h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: rgb(251, 255, 2);
+    
+    
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-bottom: 150px;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .events {
+    background-color: #9fcaee;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .events h2 {
+    font-size: 28px;
+    text-align: center;
+    color: blue;
+    margin-bottom: 20px;
+  }
+  
+  .events ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .events li {
+    flex-basis: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .events li img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .events li h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .events li p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .events li a {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  footer {
+    background-color: #00ffff;
+    padding: 20px;
+  }
+    
+    .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    
+    .footer-content p {
+    font-size: 16px;
+    color: #1900ff;
+    margin: 0;
+  }
+    
+    .dec__image {
+      width: 50%;
+      float: right;
+      margin-left: 1rem;
+  }
+    
+    .dec__image img {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
